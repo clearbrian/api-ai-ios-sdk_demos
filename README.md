@@ -1,6 +1,10 @@
 # api-ai-ios-sdk_demos
 Demo apps for api-ai-ios-sdk_demos
 
+https://api.ai/  Speech or Text > Intents/ Actions > Json
+
+"Build intelligent speech interfaces for apps, devices, and web"
+
 
 
 based on 
