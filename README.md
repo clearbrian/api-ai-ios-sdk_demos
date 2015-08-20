@@ -16,13 +16,28 @@ CREATE ACCOUNT AT https://console.api.ai and
 set up sample Agent using https://api.ai/docs/getting-started/5-min-guide/
 
 Then enter 
+
 Subscription key
+
 Client access token
+
 in AppDelegate
+
         configuration.clientAccessToken = "......"
+
         configuration.subscriptionKey = "......"
 
-The try "Weather for Washington" or "Weather for New York"
+
+
+The try talkign to app or typing in app:
+
+"Weather for Washington" or "Weather for New York"
+
+if understood should get json with weather for either
+
+
+
+
 
 
 
