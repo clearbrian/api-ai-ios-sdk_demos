@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/ApiAI" "${PODS_ROOT}/Headers/Public/ApiAI/ResponseMapping" "${PODS_ROOT}/Headers/Public/ApiAI/UIKit" "${PODS_ROOT}/Headers/Public/CWLSynthesizeSingleton" "${PODS_ROOT}/Headers/Public/MBProgressHUD"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/ApiAI" -isystem "${PODS_ROOT}/Headers/Public/ApiAI/ResponseMapping" -isystem "${PODS_ROOT}/Headers/Public/ApiAI/UIKit" -isystem "${PODS_ROOT}/Headers/Public/CWLSynthesizeSingleton" -isystem "${PODS_ROOT}/Headers/Public/MBProgressHUD"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"ApiAI" -l"MBProgressHUD" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods
