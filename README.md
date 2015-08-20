@@ -29,7 +29,7 @@ in AppDelegate
 
 
 
-The try talkign to app or typing in app:
+Then try talking to app or typing in app:
 
 "Weather for Washington" or "Weather for New York"
 
